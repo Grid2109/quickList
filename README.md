@@ -27,6 +27,8 @@ Este projeto permite ao usuário criar e gerenciar uma lista de compras interati
   ![Screenshot 2025-03-14 155438](https://github.com/user-attachments/assets/d94c5edf-02c7-47d5-bad4-e083f8a8e0a7)
   ![Screenshot 2025-03-14 155545](https://github.com/user-attachments/assets/7cb0da7b-1a43-44c6-9b72-b6b94990dd70)
 
+  <a href="https://grid-quicklist.netlify.app/">Link do projeto</a>
+
 
   
 
