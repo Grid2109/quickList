@@ -27,60 +27,62 @@
 
       <h1>Compras da semana</h1>
 
-      <div class="add-item-container">
+      <form class="add-item-container">
         <input
           type="text"
           class="add-item-input"
           placeholder="Adicione um novo item"
+          required
         />
-        <button class="add-item-button">Adicionar item</button>
-      </div>
+        <button type="submit" class="add-item-button">Adicionar item</button>
+      </form>
 
       <ul class="shopping-list">
-        <li class="shopping-item">
+        <!-- <li class="shopping-item">
           <input type="checkbox" class="item-checkbox" id="item1" />
           <label for="item1" class="item-name">Pão de forma</label>
-          <button class="delete-button">
+         
             <img src="assets/icons/trash.svg" alt="icone de lixeira">
-           </button>
+         
         </li>
 
         <li class="shopping-item">
           <input type="checkbox" class="item-checkbox" id="item2" />
           <label for="item2" class="item-name">Café preto</label>
-          <button class="delete-button">
+         
             <img src="assets/icons/trash.svg" alt="ícone de lixeira">
-           </button>
+     
         </li>
 
         <li class="shopping-item">
           <input type="checkbox" class="item-checkbox" id="item3" />
           <label for="item3" class="item-name">Suco de laranja</label>
-          <button class="delete-button">
+        
             <img src="assets/icons/trash.svg" alt="ícone de lixeira">
-           </button>
+        
         </li>
 
         <li class="shopping-item">
           <input type="checkbox" class="item-checkbox" id="item4" />
           <label for="item4" class="item-name">Bolacha</label>
-          <button class="delete-button">
+        
            <img src="assets/icons/trash.svg" alt="ícone de lixeira">
-          </button>
-        </li>
+      
+        </li> -->
       </ul>
-
+      <!-- 
       <div class="notification">
         <span class="notification-icon">
           <img src="assets/icons/alert.svg" alt="icone de exclamação">
         </span>
         O item foi removido da lista
         <div class="close-notification">
-          <button class="removed-item">
-            <img src="assets/icons/delete.svg" alt="icone de x">
-         </button>
+          
+            <img src="assets/icons/delete.svg" alt="icone de x" class="remove-item">
+         
         </div>
-      </div>
+      </div> -->
     </main>
+    <script src="scripts.js"></script>
   </body>
 </html>
